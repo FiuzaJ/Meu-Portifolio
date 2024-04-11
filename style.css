@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+.span{
+    color:  #7373ff;
+}
+
+h2.titulo{
+    text-align: center;
+    font-size: 42px;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    height: 100vh;
+}
+
+
+
+/* CABEÇALHO */
+
+header{
+    background-color: #373781;
+    padding: 30px 4%;
+}
+
+header .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+header a:hover{
+    color: #7373ff;
+}
+header nav.menu ul li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+/* TOPO */
+
+section.top{
+    padding: 40px 4%;
+}
+
+section.top .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+section.top h1{
+    font-size: 42px;
+    line-height: 40px;
+}
+
+section.top p{
+    margin: 20px 0;
+}
+
+section.top .img-top img{
+    margin: 0 120px 0 0;
+    opacity: 90%;
+}
+
+/* QUEM SOU EU? */
+
+section.quem-sou{
+    padding: 40px 4%;
+}
+
+section.quem-sou .flex{
+    gap: 60px;
+}
+
+section.quem-sou .titulo{
+    text-align: center;
+    font-size: 42px;
+}
+
+section.quem-sou .interface p{
+    padding: 10px;
+}
+
+/* CONHECIMENTOS */
+
+.conhecimentos {
+    padding: 40px 0; /* Ajusta o padding para evitar espaços indesejados */
+}
+
+.conhecimentos .interface {
+    width: 100%; /* Garante que as divs ocupem toda a largura da section */
+    max-width: 1200px; /* Define uma largura máxima para a section */
+    margin: 0 auto; /* Centraliza a section horizontalmente */
+}
+
+.conhecimentos-box {
+    padding: 20px; /* Adiciona um espaçamento interno às divs */
+
+}
+
+.conhecimentos-box h3{
+    text-align: center;
+}
